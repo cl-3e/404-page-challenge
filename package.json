@@ -1,0 +1,20 @@
+{
+  "name": "404-page-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cl-3e/404-page-challenge.git",
+  "author": "cl3e <iamcl3e@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "sass:watch": "sass sass/styles.scss sass/compiled/styles.css --watch",
+    "postcss:watch": "postcss sass/compiled/styles.css --dir assets/css --watch",
+    "watch:all": "npx concurrently \"yarn run sass:watch\" \"yarn run postcss:watch\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "cssnano": "^5.1.5",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "sass": "^1.49.9"
+  }
+}
