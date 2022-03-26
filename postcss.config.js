@@ -1,3 +1,7 @@
 module.exports = {
-  plugins: [require('cssnano')],
+  plugins: [
+    require('cssnano'),
+    require('autoprefixer'),
+    require('postcss-font-magician'),
+  ],
 };

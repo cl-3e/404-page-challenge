@@ -11,10 +11,12 @@
     "watch:all": "npx concurrently \"yarn run sass:watch\" \"yarn run postcss:watch\""
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.4",
     "concurrently": "^7.0.0",
     "cssnano": "^5.1.5",
     "postcss": "^8.4.12",
     "postcss-cli": "^9.1.0",
+    "postcss-font-magician": "^3.0.0",
     "sass": "^1.49.9"
   }
 }
