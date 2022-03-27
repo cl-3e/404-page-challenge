@@ -1,0 +1,17 @@
+@use '../utils/' as utils;
+
+.message {
+  &--button {
+    /*Button Appearance*/
+    width: 21.6rem;
+    height: 6.8rem;
+    background: utils.$primary-color;
+    & p {
+      font-size: 14px;
+      line-height: 21px;
+      letter-spacing: -0.035em;
+      text-transform: uppercase;
+      color: utils.$white-color;
+    }
+  }
+}

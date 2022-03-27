@@ -1,0 +1,11 @@
+@use '../utils/' as utils;
+
+.message {
+  &--body {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035rem;
+    color: utils.$secondary-color;
+  }
+}
