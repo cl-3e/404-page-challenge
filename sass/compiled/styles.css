@@ -43,11 +43,51 @@ h4.title {
   row-gap: 3rem;
 }
 
+@media screen and (min-width: 1241px) {
+  .container {
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 3rem auto;
+    row-gap: 5.5rem;
+    column-gap: 15rem;
+    padding: 3rem 6rem;
+  }
+
+  h4.title {
+    grid-column: span 2;
+  }
+
+  .wrapper {
+    height: 100%;
+  }
+  .wrapper img.not-found--img {
+    width: 54rem;
+  }
+
+  .message-wrapper {
+    padding: auto;
+  }
+
+  .message {
+    row-gap: 5rem;
+    justify-content: end;
+    margin: 6rem auto;
+  }
+  .message--title {
+    font-size: 6.4rem;
+    align-items: center;
+    width: 50rem;
+  }
+  .message--body {
+    font-size: 2.4rem;
+    width: 30rem;
+  }
+}
 .message--button {
   /*Button Appearance*/
   width: 21.6rem;
   height: 6.8rem;
   background: #333333;
+  border: none;
 }
 .message--button p {
   font-size: 14px;

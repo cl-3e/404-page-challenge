@@ -3,7 +3,7 @@ $secondary-color: #4f4f4f;
 $white-color: #ffffff;
 
 @mixin md-large {
-  @media screen and (min-width: 72rem) {
+  @media screen and (min-width: 1241px) {
     @content;
   }
 }

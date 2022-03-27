@@ -1,0 +1,39 @@
+@use '../utils/' as utils;
+
+@include utils.md-large {
+  .container {
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 3rem auto;
+    row-gap: 5.5rem;
+    column-gap: 15rem;
+    padding: 3rem 6rem;
+  }
+  h4.title {
+    grid-column: span 2;
+  }
+
+  .wrapper {
+    height: 100%;
+    img.not-found--img {
+      width: 54rem;
+    }
+  }
+
+  .message-wrapper {
+    padding: auto;
+  }
+  .message {
+    row-gap: 5rem;
+    justify-content: end;
+    margin: 6rem auto;
+    &--title {
+      font-size: 6.4rem;
+      align-items: center;
+      width: 50rem;
+    }
+    &--body {
+      font-size: 2.4rem;
+      width: 30rem;
+    }
+  }
+}
