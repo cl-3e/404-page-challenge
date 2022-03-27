@@ -1,6 +1,6 @@
 module.exports = {
   plugins: [
-    // require('cssnano'),
+    require('cssnano'),
     require('autoprefixer')({
       flexbox: 'no-2009',
       // grid: 'autoplace',
